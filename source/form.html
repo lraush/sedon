@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../less/style.css">
+  <link rel="stylesheet" href="../css/style.css.map">
+  <link rel="stylesheet/less" href="../less/style.less">
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <div class="header__logo"></div>
+    </a>
+    <nav class="main-nav main-nav--nojs main-nav--closed">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+      <ul class="main-nav__list">
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="index.html">Главная</a>
+        </li>
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="catalog.html">Фото и видео</a>
+        </li>
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="form.html">Форма отзыва</a>
+        </li>
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="#">HTML ACADEMY</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+    <div class="form-header__background">
+      <img class="background__image-text-form" src="../image/page-header__slogan.svg" alt="welcome">
+      <div class="background__vector">
+      <svg class="form-background__vector-left" width="161" height="57" viewBox="0 0 161 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-190.171 23.7L-440 0V57H-190.171H160.55L-190.171 0V23.7Z" fill="white"/>
+        </svg>
+        <svg class="form-background__vector-right" width="160" height="57" viewBox="0 0 160 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M351.271 23.7V0L0.550049 57H351.271H601V0L351.271 23.7Z" fill="white"/>
+          </svg>
+        </div>
+    </div>
+  </header>
+  <main class="page-main">
+    <div class="advantages__container">
+      <h2 class="visually-hidden">Наши преимущества</h2>
+      <p class="advantages__slogan">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+      <p class="advantages__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    </div>
+    <form class="page-form" action="https://echo.htmlacademy.ru" method="get">
+      <fieldset class="form__name">
+        <legend class="form__title title">Представьтесь:</legend>
+        <label class="name__title">
+          имя*:
+          <input class="first-name__input" type="text" name="name" placeholder="Петр">
+        </label>
+        <label class="name__title">
+          фамилия*:
+          <input class="second-name__input" type="text" name="surname" placeholder="Иванов">
+        </label>
+        <label class="name__title">
+          отчество:
+          <input class="last-name__input" type="text" name="last-name" placeholder="Александрович">
+        </label>
+      </fieldset>
+      <fieldset class="form__contacts">
+        <legend class="form__title-big title">контактная информация:</legend>
+        <label class="contacts__phone">
+          контактный телефон*:
+        <input class="phone" type="tel" name="phone" placeholder="Введите телефон">
+        <button class="phone__button">
+        <a href="#" class="phone__link">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.6 7.8C5 10.6 7.4 12.9 10.2 14.4L12.4 12.2C12.7 11.9 13.1 11.8 13.4 12C14.5 12.4 15.7 12.6 17 12.6C17.6 12.6 18 13 18 13.6V17C18 17.6 17.6 18 17 18C7.6 18 0 10.4 0 1C0 0.4 0.4 0 1 0H4.5C5.1 0 5.5 0.4 5.5 1C5.5 2.2 5.7 3.4 6.1 4.6C6.2 4.9 6.1 5.3 5.9 5.6L3.6 7.8Z" fill="#010101"/>
+          </svg>
+        </a>
+      </button>
+      </label>
+      <label class="contacts__email" placeholder="Введите телефон">
+        Электронная почта*:
+        <input class="email" type="email" name="email" placeholder="Введите e-mail">
+        <button class="email__button">
+        <a href="#" class="email__link">
+        <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 8C7.7 8 7.5 7.9 7 7.7L0 4V11C0 11.5 0.5 12 1 12H15C15.5 12 16 11.5 16 11V4L9 7.7C8.5 7.9 8.3 8 8 8ZM15 0H1C0.5 0 0 0.5 0 1V1.8L8 6L16 1.8V1C16 0.5 15.5 0 15 0Z" fill="black"/>
+          </svg>
+        </a>
+      </button>
+      </label>
+      </fieldset>
+      <fieldset class="form__radio">
+        <legend class="form__title title">ваше общее впечатление:</legend>
+        <label class="radio">
+          <input class="visually-hidden" type="radio" name="radio" value="fixsed" checked>
+          <span class="radio__span"></span>
+          Скорее положительное
+        </label>
+        <label class="radio">
+          <input class="visually-hidden" type="radio" name="radio">
+          <span class="radio__span"></span>
+           Скорее отрицательное
+        </label>
+        <label class="radio">
+          <input class="visually-hidden" type="radio" name="radio">
+          <span class="radio__span"></span>
+          Затрудняюсь ответить
+        </label>
+      </fieldset>
+      <fieldset class="form__checkbox">
+        <legend class="form__title-big title">посещенные достопримечательности:</legend>
+        <label class="checkbox">
+          <input class="visually-hidden" type="checkbox" name="checkbox" checked>
+          <span class="checkbox__span"></span>
+          Мост Дьявола
+        </label>
+        <label class="checkbox">
+          <input class="visually-hidden" type="checkbox" name="checkbox" checked>
+          <span class="checkbox__span"></span>
+          Гора-Колокол
+        </label>
+        <label class="checkbox">
+          <input class="visually-hidden" type="checkbox" name="checkbox" checked>
+          <span class="checkbox__span"></span>
+          Слайд-парк
+        </label>
+        <label class="checkbox">
+          <input class="visually-hidden" type="checkbox" name="checkbox">
+          <span class="checkbox__span"></span>
+          Красные скалы
+        </label>
+      </fieldset>
+      <fieldset class="form__review">
+        <legend class="form__title-big title">Опишите свои эмоции:</legend>
+       <textarea name="review" class="review__text" cols="30" rows="10">Опишите подробно все свои восторги </textarea>
+       <button class="form__review-button button" type="submit">Отправить отзыв</button>
+      </fieldset>
+    </form>
+  </main>
+  <footer class="page-footer">
+    <div class="social__conteiner">
+    <p class="page-footer__text">#visitSEDONA</p>
+    <div class="page-footer__social social">
+      <h2 class="visually-hidden">Контакты</h2>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="#">
+            <span class="visually-hidden">Твиттер</span>
+            <img src="../image/icon/icon-twitter.svg" alt="" class="social__icon">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#">
+            <span class="visually-hidden">Фейсбук</span>
+            <img src="../image/icon/icon-facebook.svg" alt="" class="social__icon">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="#">
+            <span class="visually-hidden">канал на YouTube</span>
+            <img src="../image/icon/icon-youtube.svg" alt="" class="social__icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__item copyright">
+      <p class="copyright__text">Разработано</p>
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+        <img src="../image/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Академии">
+      </a>
+    </div>
+  </div>
+  </footer>
+  <!--<script>
+    var navMain = document.querySelector('.main-nav');
+    var navToggle = document.querySelector('.main-nav__toggle');
+    
+    navMain.classList.remove('main-nav--nojs');
+    
+    navToggle.addEventListener('click', function() {
+      if (navMain.classList.contains('main-nav--closed')) {
+        navMain.classList.remove('main-nav--closed');
+        navMain.classList.add('main-nav--opened');
+      } else {
+        navMain.classList.add('main-nav--closed');
+        navMain.classList.remove('main-nav--opened');
+      }
+    });
+  </script>-->
+</body>
+</html>

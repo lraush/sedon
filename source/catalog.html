@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../less/style.css">
+  <link rel="stylesheet" href="../css/style.css.map">
+  <link rel="stylesheet/less" href="../less/style.less">
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img src="../image/logo-mobile.svg" width="102" height="84" alt="Логотип">
+    </a>
+    <nav class="main-nav main-nav--nojs main-nav--closed">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+      <ul class="main-nav__list">
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="index.html">Главная</a>
+        </li>
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="catalog.html">Фото и видео</a>
+        </li>
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="form.html">Форма отзыва</a>
+        </li>
+        <li class="main-nav__item site-list__item">
+          <a class="main-nav__link" href="#">HTML ACADEMY</a>
+        </li>
+      </ul>
+      </div>
+    </nav>
+    <div class="header__background">
+      <img class="background__image-text-form" src="../image/page-header__slogan.svg" alt="welcome">
+      <div class="background__vector">
+      <svg class="background__vector-left" width="161" height="57" viewBox="0 0 161 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M-190.171 23.7L-440 0V57H-190.171H160.55L-190.171 0V23.7Z" fill="white"/>
+        </svg>
+        <svg class="background__vector-right" width="160" height="57" viewBox="0 0 160 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M351.271 23.7V0L0.550049 57H351.271H601V0L351.271 23.7Z" fill="white"/>
+          </svg>
+        </div>
+    </div>
+  </header>
+  <main class="page-main">
+    <div class="advantages__container">
+      <h2 class="visually-hidden">Наши преимущества</h2>
+      <p class="advantages__slogan">Фото и видео</p>
+      <p class="advantages__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+    </div>
+    <section class="gallery">
+      <ul class="gallery__list">
+        <li class="gallery__item-first">
+          <div class="gallery__image-first"></div>
+          <blockquote class="gallery__description-first">
+            <div class="description__box">
+          <h4 class="gallery__title">неродные просторы</h4>
+           <p class="gallery__autor">Автор фото: Борис</p>
+          </div>
+           <div class="like">
+            <svg class="like__image" width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path class="like__svg"  opacity="0.3" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="black"/>
+             </svg>
+            <button class="like__btn" type="submit">143</button>
+           </div>
+          </blockquote>
+        </li>
+        <li class="gallery__item">
+          <div class="gallery__image gallery__image-second"></div>
+          <blockquote class="gallery__description">
+            <div class="description__box">
+          <h4 class="gallery__title">Местная растительность</h4>
+           <p class="gallery__autor">Автор фото: Сергей</p>
+          </div>
+           <div class="like">
+           <svg class="like__image" width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="like__svg"  opacity="0.3" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="black"/>
+            </svg>
+           <button class="like__btn" type="submit">143</button>
+          </div>
+          </blockquote>
+        </li>
+        <li class="gallery__item">
+          <div class="gallery__image gallery__image-three"></div>
+          <blockquote class="gallery__description">
+            <div class="description__box">
+          <h4 class="gallery__title">Дорога на север</h4>
+           <p class="gallery__autor">Автор фото: Петр</p>
+           </div>
+           <div class="like">
+            <svg class="like__image" width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path class="like__svg"  opacity="0.3" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="black"/>
+             </svg>
+            <button class="like__btn" type="submit">143</button>
+           </div>
+          </blockquote>
+        </li>
+        <li class="gallery__item">
+          <div class="gallery__image gallery__image-four"></div>
+          <blockquote class="gallery__description">
+            <div class="description__box">
+          <h4 class="gallery__title">Мост дьявола</h4>
+           <p class="gallery__autor">Автор фото: Антон</p>
+           </div>
+           <div class="like">
+            <svg class="like__image" width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path class="like__svg" opacity="0.3" d="M12.9636 3.78L12.3364 6.825L11.7091 9.45H14.3227H20.8045V11.55C20.8045 11.55 20.8045 11.55 20.8045 11.655L17.7727 18.9H8.36364V8.4L12.9636 3.78ZM2.09091 10.5V18.9V10.5ZM13.8 0L6.9 6.93C6.48182 7.245 6.27273 7.77 6.27273 8.4V18.9C6.27273 20.055 7.21364 21 8.36364 21H17.7727C18.6091 21 19.3409 20.475 19.6545 19.74L22.7909 12.285C22.8955 12.075 22.8955 11.76 22.8955 11.55V9.45H23C23 8.295 22.0591 7.35 20.9091 7.35H14.3227L15.3682 2.52V2.205C15.3682 1.785 15.1591 1.365 14.95 1.05L13.8 0ZM4.18182 8.4H0V21H4.18182V8.4Z" fill="black"/>
+             </svg>
+            <button class="like__btn" type="submit">143</button>
+           </div>
+          </blockquote>
+        </li>
+      </ul>
+    </section>
+    <section class="search">
+      <div class="search__content">
+        <h3 class="search__subtitle">Все еще сомневаетесь?</h3>
+          <p class="search__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+      </div>
+      <div class="search__video">
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="social__conteiner">
+    <p class="page-footer__text">#visitSEDONA</p>
+    <div class="page-footer__social social">
+      <h2 class="visually-hidden">Контакты</h2>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="#">
+            <span class="visually-hidden">Твиттер</span>
+            <img src="../image/icon/icon-twitter.svg" alt="" class="social__icon">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--fb" href="#">
+            <span class="visually-hidden">Фейсбук</span>
+            <img src="../image/icon/icon-facebook.svg" alt="" class="social__icon">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="#">
+            <span class="visually-hidden">канал на YouTube</span>
+            <img src="../image/icon/icon-youtube.svg" alt="" class="social__icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="page-footer__item copyright">
+      <p class="copyright__text">Разработано</p>
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+        <img src="../image/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Академии">
+      </a>
+    </div>
+  </div>
+  </footer>
+  <!--<script>
+    var navMain = document.querySelector('.main-nav');
+    var navToggle = document.querySelector('.main-nav__toggle');
+    
+    navMain.classList.remove('main-nav--nojs');
+    
+    navToggle.addEventListener('click', function() {
+      if (navMain.classList.contains('main-nav--closed')) {
+        navMain.classList.remove('main-nav--closed');
+        navMain.classList.add('main-nav--opened');
+      } else {
+        navMain.classList.add('main-nav--closed');
+        navMain.classList.remove('main-nav--opened');
+      }
+    });
+  </script>-->
+  </body>
+  </html>
